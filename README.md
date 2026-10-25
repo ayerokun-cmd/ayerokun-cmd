@@ -1,6 +1,6 @@
 # Hi, I'm Anu Yerokun 👋
 
-### Cloud Security Architect · AWS Solutions Architect · Technology Risk & GRC
+### Aspiring AWS Solutions Architect · Technology Risk & GRC
 
 I design, harden, and assess cloud systems for **fintech and financial services**. For 6+ years I've worked where cloud architecture meets audit-grade security: building resilient AWS environments, and proving to regulators, auditors, and boards that they're secure.
 
