@@ -27,6 +27,11 @@ I design, harden, and assess cloud systems for **fintech and financial services*
 - **Optimize cost.** I right-size resources, use Savings Plans, set S3 lifecycle policies, and build serverless, event-driven designs (Lambda, API Gateway, DynamoDB).
 - **Bring audit-grade governance.** I work across NIST CSF/RMF, ISO 27001, SOC 2, PCI-DSS, SOX 404, GDPR and HIPAA.
 
+## 🚀 Featured project
+
+### [AWS Secure VPC Baseline](https://github.com/ayerokun-cmd/aws-secure-vpc-baseline)
+A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has an isolated data tier, chained security groups, KMS-encrypted flow logs, and SSM access with no bastion host. It ships with an **organization-wide guardrail policy (SCP)** and a **control mapping to NIST CSF 2.0, ISO 27001:2022 and PCI DSS v4.0**. Every commit is checked automatically with cfn-lint and the Checkov security scanner.
+
 ## 🛠️ Tech stack
 
 **Cloud & compute**
