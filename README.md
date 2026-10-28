@@ -1,14 +1,36 @@
 # Hi, I'm Anu Yerokun 👋
 
-### Aspiring AWS Solutions Architect · Technology Risk & GRC
+### Third-party risk (TPRM) assessor moving into cloud security · CISA · AWS Solutions Architect – Associate
 
-I design, harden, and assess cloud systems for **fintech and financial services**. For 6+ years I've worked where cloud architecture meets audit-grade security: building resilient AWS environments, and proving to regulators, auditors, and boards that they're secure.
+> I assess risk for a living. Now I'm building the controls too.
+
+For 6+ years I've worked in **fintech and financial services**, assessing vendors, systems and cloud environments, and proving to regulators, auditors and boards that they're secure. Now I design and build those controls myself, in AWS.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ayerokun--cmd.github.io-0A66C2?style=for-the-badge&logo=githubpages&logoColor=white)](https://ayerokun-cmd.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anu--yerokun-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anu-yerokun)
 [![Email](https://img.shields.io/badge/Email-anuyerokun%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anuyerokun@gmail.com)
 
 ---
+
+## 🧭 How I work
+
+**Assess first, then design.** I find the risk, map it to a control, and show the evidence. From TPRM I bring a focus on vendor risk, solid evidence and clear remediation, and I apply it to cloud architecture.
+
+## 🚀 Featured projects
+
+### [AWS Secure VPC Baseline](https://github.com/ayerokun-cmd/aws-secure-vpc-baseline)
+A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has an isolated data tier, chained security groups, KMS-encrypted flow logs, and SSM access with no bastion host. It ships with an **organization-wide guardrail policy (SCP)** and a **control mapping to NIST CSF 2.0, ISO 27001:2022 and PCI DSS v4.0**. Every commit is checked automatically with cfn-lint and the Checkov security scanner.
+
+### Cloud security posture checker *(in progress)*
+A read-only **Python + boto3** CLI that audits an AWS account against the **CIS benchmarks**. It produces a Markdown/JSON risk report with severity ratings and remediation guidance, like an assessor's report for the cloud.
+
+### [Sentinel](https://github.com/ayerokun-cmd/sentinel): endpoint detection
+A cross-platform scanner for malware and weak security settings on Windows, macOS, Linux, Android and iOS. It shows my endpoint detection work, which complements my cloud focus.
+
+## 🎯 Next up
+
+- A secure AWS reference architecture in **Terraform**, with a threat model and architecture decision notes
+- **AWS Certified Security – Specialty**, my next certification after SAA
 
 ## 🏅 Certifications
 
@@ -19,7 +41,7 @@ I design, harden, and assess cloud systems for **fintech and financial services*
 | **Microsoft Certified: SQL Server & BI (70-448)** | Microsoft | — |
 | **CRISC** | ISACA | *In progress* |
 
-## 🧭 What I do
+## 🛠️ What I do
 
 - **Architect secure AWS environments.** I design multi-AZ and multi-region networks with VPC segmentation, private subnets, Transit Gateway and least-privilege IAM, following all six pillars of the Well-Architected Framework.
 - **Build for resilience.** I use Auto Scaling, Elastic Load Balancing, Route 53 failover, RDS Multi-AZ, and backup and disaster-recovery plans with defined RTO and RPO targets.
@@ -27,12 +49,7 @@ I design, harden, and assess cloud systems for **fintech and financial services*
 - **Optimize cost.** I right-size resources, use Savings Plans, set S3 lifecycle policies, and build serverless, event-driven designs (Lambda, API Gateway, DynamoDB).
 - **Bring audit-grade governance.** I work across NIST CSF/RMF, ISO 27001, SOC 2, PCI-DSS, SOX 404, GDPR and HIPAA.
 
-## 🚀 Featured project
-
-### [AWS Secure VPC Baseline](https://github.com/ayerokun-cmd/aws-secure-vpc-baseline)
-A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has an isolated data tier, chained security groups, KMS-encrypted flow logs, and SSM access with no bastion host. It ships with an **organization-wide guardrail policy (SCP)** and a **control mapping to NIST CSF 2.0, ISO 27001:2022 and PCI DSS v4.0**. Every commit is checked automatically with cfn-lint and the Checkov security scanner.
-
-## 🛠️ Tech stack
+## 🧰 Tech stack
 
 **Cloud & compute**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
@@ -58,13 +75,15 @@ A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has
 
 **Infrastructure as code & operations**
 ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=white)
 
 **Governance, risk & compliance**
-`NIST CSF / RMF` `ISO 27001/2` `SOC 2` `PCI-DSS` `SOX 404` `ITGC` `GDPR` `HIPAA` `COBIT` `COSO` `AuditBoard` `GRC Archer`
+`TPRM` `NIST CSF / RMF` `ISO 27001/2` `SOC 2` `PCI-DSS` `SOX 404` `ITGC` `GDPR` `HIPAA` `COBIT` `COSO` `AuditBoard` `GRC Archer`
 
 ## 💼 Experience
 
@@ -93,4 +112,4 @@ A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has
 
 ---
 
-📍 Based in Mexico · Open to cloud security architecture, cloud GRC and security risk roles
+📍 Based in Mexico · Open to cloud security, solutions architecture and cloud GRC roles
