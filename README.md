@@ -21,8 +21,8 @@ For 6+ years I've worked in **fintech and financial services**, assessing vendor
 ### [AWS Secure VPC Baseline](https://github.com/ayerokun-cmd/aws-secure-vpc-baseline)
 A secure, multi-AZ, three-tier AWS network written in **CloudFormation**. It has an isolated data tier, chained security groups, KMS-encrypted flow logs, and SSM access with no bastion host. It ships with an **organization-wide guardrail policy (SCP)** and a **control mapping to NIST CSF 2.0, ISO 27001:2022 and PCI DSS v4.0**. Every commit is checked automatically with cfn-lint and the Checkov security scanner.
 
-### Cloud security posture checker *(in progress)*
-A read-only **Python + boto3** CLI that audits an AWS account against the **CIS benchmarks**. It produces a Markdown/JSON risk report with severity ratings and remediation guidance, like an assessor's report for the cloud.
+### [Cloud Security Posture Checker](https://github.com/ayerokun-cmd/cloud-posture-checker)
+A read-only **Python + boto3** CLI that audits an AWS account against **25 controls from the CIS AWS Foundations Benchmark v3.0.0**. It writes a Markdown/JSON risk report with a posture score, severity ratings, remediation steps and the API evidence behind every finding, like an assessor's report for the cloud. Checks it couldn't evaluate are reported as coverage gaps, never as passes, and a `--fail-on` exit code lets it gate CI/CD pipelines. See the [sample report](https://github.com/ayerokun-cmd/cloud-posture-checker/blob/main/docs/sample-report.md).
 
 ### [Sentinel](https://github.com/ayerokun-cmd/sentinel): endpoint detection
 A cross-platform scanner for malware and weak security settings on Windows, macOS, Linux, Android and iOS. It shows my endpoint detection work, which complements my cloud focus.
